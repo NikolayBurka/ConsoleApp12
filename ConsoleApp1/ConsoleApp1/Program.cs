@@ -28,3 +28,19 @@ for (int i = 0; i < array.Length; i++)
 }
 Console.WriteLine($"min={min} indexmin={indexmin}");
 Console.WriteLine($"max={max} indexmax={indexmax}");
+
+//Задача 4
+//int[] rubleRates = new int[28];
+//Random random = new Random();
+//for (int i = 0; i < 28; i++)
+//{
+//    rubleRates[i] = random.Next(50, 100);
+//}
+//double averageRate = rubleRates.Average();
+//int maxRate = rubleRates.Max();
+//int maxRateIndex = Array.IndexOf(rubleRates, maxRate) + 1; 
+//int minRate = rubleRates.Min();
+//int minRateIndex = Array.IndexOf(rubleRates, minRate) + 1;
+//Console.WriteLine($"Средний курс рубля: {averageRate:F2}");
+//Console.WriteLine($"Максимальный курс рубля: {maxRate} (день {maxRateIndex})");
+//Console.WriteLine($"Минимальный курс рубля: {minRate} (день {minRateIndex})");
